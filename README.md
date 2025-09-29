@@ -1,4 +1,4 @@
-# British Airways Customer Experience & Satisfaction Analysis
+# British Airways Customer Experience & Satisfaction Analysis (Tableau Visualization)
 
 ## 📌 Project Overview
 Interactive Tableau dashboard analyzing British Airways customer reviews to uncover insights on passenger satisfaction across countries, aircraft types, and time periods.
