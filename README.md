@@ -1,67 +1,61 @@
-British Airways Customer Experience Dashboard
-📌 Project Overview
+<img width="1833" height="727" alt="image" src="https://github.com/user-attachments/assets/fdbb0742-bae4-4d6d-9501-e4a4ebdb69c2" /># British Airways Customer Experience Dashboard
 
+## 📌 Project Overview
 Interactive Tableau dashboard analyzing British Airways customer reviews to uncover insights on passenger satisfaction across countries, aircraft types, and time periods.
 
-📝 Problem Statement
+---
 
-Understand key drivers of passenger satisfaction and identify areas for improvement in services such as Food, Entertainment, Cabin Staff, Seat Comfort, Ground Service, and Overall Experience.
+## 📝 Project Objective
+Analyze customer reviews to understand passenger satisfaction and identify areas for improvement across services like Food, Entertainment, Cabin Staff, Seat Comfort, Ground Service, and Overall Experience.
 
-💾 Data Sources
+---
 
-ba_review.csv – Customer reviews including ratings for multiple services and overall experience.
+## 💾 Dataset Used
+- **`ba_review.csv`** – Customer reviews including ratings for multiple services and overall experience.
+- **`countries.csv`** – Geographic data to map review locations by country.
 
-countries.csv – Geographic information for mapping review locations by country.
+---
 
-🛠 Tools & Technologies
+## 📊 Questions / KPIs
+- Which services have the highest and lowest satisfaction ratings?
+- How do ratings vary across aircraft types?
+- Are there seasonal trends in customer ratings?
+- How does traveller type or seat class affect satisfaction?
+- **KPIs:** Average rating per metric, number of reviews, rating trends over time.
 
-Tableau (Dashboard creation, visualization, parameterization)
+---
 
-Excel / CSV (Data handling)
+## ⚙️ Process / Methodology
+1. Data Cleaning & Preprocessing: joined review and country data, handled missing values, standardized formats.
+2. Dashboard Setup: 
+   - Created a parameter-driven calculated field for dynamic metric selection.
+   - Applied filters for Month, Seat Type, and Traveller Type.
+3. Visualization: 
+   - Interactive world map showing average ratings by country.
+   - Line chart for monthly trends.
+   - Bar chart comparing average ratings and review counts across aircraft types.
 
-⚙️ Data Cleaning & Preprocessing
+---
 
-Joined review data with country data on Place/Country.
+## 📈 Project Insights
+- Cabin Staff received consistently high ratings and entertainment recieved the lowest.
+- Food and Entertainment ratings show room for improvement.
+- Ratings vary across aircraft types; some planes have higher average satisfaction.
+- Seasonal trends detected in certain service metrics.
 
-Handled missing or inconsistent ratings.
+---
 
-Standardized column names and date formats for monthly analysis.
+## ✅ Conclusion
+The interactive dashboard provides actionable insights for British Airways to monitor and improve passenger experience across different geographies, aircraft, and service types. It enables data-driven decisions for service enhancements and customer engagement strategies.
 
-📊 Analysis & Approach
+---
 
-Created a parameter-driven calculated field to switch dynamically between metrics like Overall Rating, Food, Seat Comfort, etc.
+## 🔗 Demo / Dashboard Link
+https://public.tableau.com/app/profile/fathimath.rifna/viz/BritishAirwaysReview_17586583488760/Dashboard1#1
 
-Applied filters for Month, Seat Type, and Traveller Type to allow interactive exploration.
+---
 
-Visualized trends over time and compared ratings across aircraft types and countries.
-
-📈 Key Visualizations
-
-World Map – Average ratings by country.
-
-Line Chart – Metric trends over months.
-
-Bar Chart – Average rating vs review count for each aircraft type.
-
-Interactive filters for Month, Seat Type, and Traveller Type.
-
-🔑 Key Findings
-
-Seasonal trends in customer ratings identified.
-
-Cabin Staff rated highly; Food and Entertainment require improvement.
-
-Aircraft performance comparison by rating and review volume highlights popular and high-performing planes.
-
-🎯 Impact / Application
-
-Supports data-driven decisions for service improvements.
-
-Helps track customer experience trends across geographies and aircraft types.
-
-Enables targeted strategies for enhancing passenger satisfaction.
-
-🔗 Demo / Dashboard Link
-
-View the Tableau Dashboard
- – replace with your published Tableau Public link.
+## 👩‍💻 My Contribution
+- Designed and implemented the Tableau dashboard.
+- Preprocessed and cleaned datasets for analysis.
+- Created interactive parameters and calculated fields for dynamic metric selection.
