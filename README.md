@@ -11,10 +11,9 @@ Analyze customer reviews to understand passenger satisfaction and identify areas
  
 
 ## 💾 Dataset Used
-- **`ba_review.csv`** – Customer reviews including ratings for multiple services and overall experience.
-- **`countries.csv`** – Geographic data to map review locations by country.
+- <a href="https://github.com/rif2002/british-airways-review/blob/main/ba_reviews.csv">**`ba_review.csv`**</a>
+- <a href="https://github.com/rif2002/british-airways-review/blob/main/Countries.csv">**`countries.csv`** </a>
 
- 
 
 ## 📊 Questions / KPIs
 - What is the single highest-rated aspect of British Airways according to the reviews shown?
